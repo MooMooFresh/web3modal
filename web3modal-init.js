@@ -4,13 +4,13 @@ import { mainnet, arbitrum } from 'viem/chains'
 import { reconnect } from '@wagmi/core'
 
 // 1. Get a project ID at https://cloud.walletconnect.com
-const projectId = 'YOUR_PROJECT_ID'
+const projectId = '8c6840e047c4bc0fdb4e3ea1ca6a61e0'
 
 // 2. Create wagmiConfig
 const metadata = {
   name: 'Web3Modal',
   description: 'Web3Modal Example',
-  url: 'https://web3modal.com', // origin must match your domain & subdomain.
+  url: 'https://dripfactory.webflow.io/', // origin must match your domain & subdomain.
   icons: ['https://avatars.githubusercontent.com/u/37784886']
 }
 
